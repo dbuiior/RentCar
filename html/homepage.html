@@ -5,45 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RentCar</title>
     <link rel="stylesheet" href="/css/homepage.css">
+    <script src="/js/hamburger.js"></script>
 </head>
 <body>
     <!-- Navbar start -->
     <nav class="navbar">
-        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
         <div id="menuItems" class="menu hidden">
             <a href="#menu1">Home</a>
-            <a href="#menu2">History</a>
-            <a href="#menu3">Contact</a>
+            <a href="#menu2">Riwayat Penyewaan</a>
+            <a href="#menu3">Kontak Kami</a>
         </div>
         <div class="navbar-logo">RentCar</div>
         <div class="auth-buttons">
             <a class="login" href="#">Login</a>
-            <a class="register" href="#">Register</a>
+            <a class="register" href="/html/register.html">Register</a>
         </div>
     </nav>
 
     <!-- Main -->
     <main>
         <h1 class="title">Selamat datang di rental mobil kami</h1>
-
         <div class="container">
             <div class="date-container">
                 <div class="date-group">
-                    <label for="pickupdate">Tanggal Pickup:</label>
-                    <input type="date" id="pickupdate" name="pickupdate" required>
+                    <label for="pickupDate">Pickup Date</label>
+                    <input type="date" id="pickupDate" name="pickupDate" required>
                 </div>
                 <div class="date-group">
-                    <label for="pickupdate">Return Date:</label>
-                    <input type="date" id="pickupdate" name="pickupdate" required>
+                    <label for="returnDate">Return Date</label>
+                    <input type="date" id="returnDate" name="returnDate" required>
                 </div>
                 <div class="date-group">
-                    <label for="pickupdate">Filter Tahun Pembuatan:</label>
-                    <input type="date" id="pickupdate" name="pickupdate" required>
+                    <label for="filterYear">Filter Tahun Pembuatan:</label>
+                    <select id="filterYear" name="filterYear" required>
+                        <option value="">Semua tahun</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                    </select>
                 </div>
                 <button class="find">Cari</button>
             </div>
         </div>
     </main>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 - RentCar App Semua hak dilindungi</p>
+    </footer>
 </body>
 </html>

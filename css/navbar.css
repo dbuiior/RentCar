@@ -110,50 +110,7 @@ body {
     cursor: pointer;
 }
 
-.title{
-    text-align: center;
-}
-
-.container{
-    width: 100%;
-    height: 100px;
-    background-color: aqua;
-}
-
-.date-container{
-    display:flex;
-    justify-content:start;
-    align-items:center;
-    gap: 15px;
-}
-
-.date-group{
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-}
 
 .hidden {
     display: none;
 }
-
-.footer{
-    width: 100%;
-    height: 100px;
-    background-color: purple;   
-}
-
-.footer p{
-    text-align: center;
-    color: white;
-}
-
-.find{
-    background-color: lightpink;
-    color: white;
-    outline: 0;
-}
-
-
-
-
