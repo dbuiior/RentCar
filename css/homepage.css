@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: grey;
+    background-color: #d1d1d1;
 }
 .navbar {
     display: flex;
@@ -15,7 +15,6 @@ body {
     align-items: center;
     background-color: purple;
     padding: 15px 20px;
-    position: relative;
 }
 
 .hamburger {

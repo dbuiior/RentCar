@@ -5,27 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/history.css">
+    <script src="/js/hamburger.js"></script>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <div class="hamburger" onclick="toggleMenu()">☰ RentCar</div>
         <div id="menuItems" class="menu hidden">
-            <a href="#menu1">Home</a>
-            <a href="#menu2">Riwayat Penyewaan</a>
+            <a href="/html/homepage.html">Home</a>
+            <a href="/html/history.html">Riwayat Penyewaan</a>
             <a href="#menu3">Kontak Kami</a>
         </div>
-        <div class="navbar-logo">RentCar</div>
+       
         <div class="auth-buttons">
             <a class="login" href="#">Login</a>
-            <a class="register" href="#">Register</a>
+            <a class="register" href="/html/register.html">Register</a>
         </div>
     </nav>
 
     <!-- Main -->
     <main>
-        
+        <h1 class="title">Mobil yang pernah disewa</h1>
     </main>
 
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 - RentCar App Semua hak dilindungi</p>
+    </footer>
 </body>
 </html>
