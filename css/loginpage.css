@@ -1,0 +1,108 @@
+html, body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logincontainer{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 47%;
+    background-color: rgb(207, 178, 210);
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.logintitle{
+    font-weight: bold;
+    font-size: 35px;
+    opacity: .6;
+    padding-top: 50px;
+}
+
+.logincontent{
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logincontent input{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    outline: none;
+}
+
+.username{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.password{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.loginbutton{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+    align-items: center;
+}
+
+.loginbutton button{
+    width: 90%;
+    text-align: center;
+    background-color: pink;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.loginbutton button:hover{
+    cursor: pointer;
+    opacity: .7;
+    transition: .05s;
+}
+
+.loginbutton button:active{
+    opacity: .5;
+    transition: .05s;
+}
+
+.loginbutton a{
+    text-decoration: none;
+}
+
+.donthaveaccountlabel{
+    display: flex;
+    gap: 8px;
+}
+
+.donthaveaccountlabel a:hover{
+    transform: scale(1.05);
+    transition: .15s;
+}

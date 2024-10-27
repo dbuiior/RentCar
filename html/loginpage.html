@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentCar Login</title>
+    <link rel="stylesheet" href="../css/loginpage.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <script src="/js/hamburger.js"></script>
+</head>
+<body>
+
+    <!-- Navbar start -->
+    <nav class="navbar">
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+        <div id="menuItems" class="menu hidden">
+            <a href="homepage.html">Home</a>
+            <a href="#menu2">Riwayat Penyewaan</a>
+            <a href="#menu3">Kontak Kami</a>
+        </div>
+        <div class="navbar-logo">RentCar</div>
+        <div class="auth-buttons">
+            <a class="login" href="loginpage.html">Login</a>
+            <a class="register" href="/html/register.html">Register</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="logincontainer">
+            <div class="logintitle">Login ke RentCar</div>
+            <div class="logincontent">
+                <div class="username">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Masukkan username Anda">
+                </div>
+                <div class="password">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Masukkan password Anda">
+                </div>
+            </div>
+            <div class="loginbutton">
+                <button>Login</button>
+                <div class="donthaveaccountlabel">
+                    <label for="donthaveaccount">Belum punya akun?</label>
+                    <a href="register.html">Registrasi disini</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
