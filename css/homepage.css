@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: purple;
+    padding: 15px 20px;
+    position: relative; /* Memungkinkan penempatan absolut */
+}
+
+.navbar-logo {
+    color: white;
+    font-size: 24px;
+}
+
+.menu {
+    display: flex; /* Menampilkan menu secara horizontal */
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Styling untuk tombol auth */
+.auth-buttons {
+    display: flex;
+}
+
+.auth-buttons a {
+    margin-left: 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.auth-buttons .login {
+    background-color: lightpink; /* Hijau */
+}
+
+.auth-buttons .register {
+    background-color: lightpink; /* Merah */
+}
+
+.auth-buttons a:hover {
+    opacity: 0.8;
+}
+
+
+.hamburger {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.title{
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+.date-container{
+    display:flex;
+    justify-content:start;
+    align-items:center;
+    gap:30px
+}
+
+.date-group{
+    display:flex;
+    flex-direction:column;
+}
+
+/* Menyembunyikan menu saat tidak digunakan */
+.hidden {
+    display: none;
+}
+

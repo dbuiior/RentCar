@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentCar</title>
+    <link rel="stylesheet" href="/css/homepage.css">
+</head>
+<body>
+    <!-- Navbar start -->
+    <nav class="navbar">
+        <button class="hamburger" onclick="toggleMenu()">☰</button>
+        <div id="menuItems" class="menu hidden">
+            <a href="#menu1">Home</a>
+            <a href="#menu2">History</a>
+            <a href="#menu3">Contact</a>
+        </div>
+        <div class="navbar-logo">RentCar</div>
+        <div class="auth-buttons">
+            <a class="login" href="#">Login</a>
+            <a class="register" href="#">Register</a>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main>
+        <h1 class="title">Selamat datang di rental mobil kami</h1>
+
+        <div class="container">
+            <div class="date-container">
+                <div class="date-group">
+                    <label for="pickupdate">Tanggal Pickup:</label>
+                    <input type="date" id="pickupdate" name="pickupdate" required>
+                </div>
+                <div class="date-group">
+                    <label for="pickupdate">Return Date:</label>
+                    <input type="date" id="pickupdate" name="pickupdate" required>
+                </div>
+                <div class="date-group">
+                    <label for="pickupdate">Filter Tahun Pembuatan:</label>
+                    <input type="date" id="pickupdate" name="pickupdate" required>
+                </div>
+                <button class="find">Cari</button>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
