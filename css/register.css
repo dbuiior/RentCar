@@ -1,10 +1,10 @@
 .register-form-container {
-    max-width: 400px; /* Lebar maksimum form */
+    max-width: 500px; /* Lebar maksimum form */
     margin: 20px auto; /* Tengah secara horizontal */
     padding: 20px; /* Padding dalam form */
     border: 1px solid #ccc; /* Border form */
     border-radius: 5px; /* Sudut bulat */
-    background-color: #f9f9f9; /* Latar belakang */
+    background-color: plum; /* Latar belakang */
 }
 
 .register-form-container h2 {
@@ -21,7 +21,7 @@
 }
 
 .form-group input {
-    width: 100%; /* Input lebar penuh */
+    width: 95%; /* Input lebar penuh */
     padding: 10px; /* Padding dalam input */
     border: 1px solid #ccc; /* Border input */
     border-radius: 4px; /* Sudut bulat input */
@@ -30,7 +30,7 @@
 .submit-btn {
     width: 100%; /* Tombol lebar penuh */
     padding: 10px; /* Padding dalam tombol */
-    background-color: #4CAF50; /* Warna latar belakang tombol */
+    background-color: lightpink; /* Warna latar belakang tombol */
     color: white; /* Warna teks tombol */
     border: none; /* Tidak ada border */
     border-radius: 4px; /* Sudut bulat tombol */
@@ -38,5 +38,9 @@
 }
 
 .submit-btn:hover {
-    background-color: #45a049; /* Warna tombol saat hover */
+    background-color: lightpink; /* Warna tombol saat hover */
+}
+
+.form p{
+    text-align: center;
 }
