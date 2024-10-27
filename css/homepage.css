@@ -1,113 +1,18 @@
-body {
+html, body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: grey;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
-.navbar {
+
+main{
+    width: 100%;
+    height: 30%;
     display: flex;
-    justify-content: space-between;
+    padding-top: 6%;
+    flex-direction: column;
     align-items: center;
-    padding: 15px 20px;
-    color: white;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: purple;
-    padding: 15px 20px;
-    position: relative;
-}
-
-.hamburger {
-    font-size: 24px;
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    display: block;
-}
-
-.menu {
-    display: none; 
-    flex-direction: column; 
-    position: absolute; 
-    top: 60px; 
-    left: 0; 
-    background-color: grey;
-    width: 200px;
-    border: 1px solid rgba(255, 255, 255, 0.2); 
-    z-index: 1000; 
-}
-
-.menu.hidden {
-    display: none;
-}
-
-.menu a {
-    color: white;
-    text-decoration: none;
-    padding: 15px 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.menu a:hover {
-    background-color: rgba(255, 255, 255, 0.2); 
-}
-
-
-
-.navbar-logo {
-    color: white;
-    font-size: 24px;
-}
-
-.menu {
-    display: flex; 
-}
-
-.menu a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-}
-
-.menu a:hover {
-    text-decoration: underline;
-}
-
-
-.auth-buttons {
-    display: flex;
-}
-
-.auth-buttons a {
-    margin-left: 10px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-}
-
-.auth-buttons .login {
-    background-color: lightpink; 
-}
-
-.auth-buttons .register {
-    background-color: lightpink;
-}
-
-.auth-buttons a:hover {
-    opacity: 0.8;
-}
-
-
-.hamburger {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
 }
 
 .title{
@@ -115,9 +20,13 @@ body {
 }
 
 .container{
-    width: 100%;
+    width: 95%;
     height: 100px;
-    background-color: aqua;
+    background-color: rgb(13, 177, 210);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: start;
+    border-radius: 20px;
 }
 
 .date-container{
@@ -125,35 +34,38 @@ body {
     justify-content:start;
     align-items:center;
     gap: 15px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .date-group{
     display:flex;
     flex-direction:column;
     justify-content: center;
+    gap: 10px;
 }
 
 .hidden {
     display: none;
 }
 
-.footer{
-    width: 100%;
-    height: 100px;
-    background-color: purple;   
-}
-
-.footer p{
-    text-align: center;
-    color: white;
-}
-
 .find{
     background-color: lightpink;
     color: white;
     outline: 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
 }
 
+.find:hover{
+    opacity: .7;
+    transition: .1s;
+    cursor: pointer;
+}
 
-
-
+.find:active{
+    opacity: .5;
+    transition: .1s;
+}
